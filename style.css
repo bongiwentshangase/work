@@ -1,18 +1,22 @@
-span{
-    border: 1px solid black;
+.table{
+
+
 }
-.english{
-    background-color: #dce6f1;
+.row{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+     
+}
+.row:nth-child(even) {background-color:  #e0f2f1 ;}
+.row:nth-child(odd) {background-color:  #b2dfdb;}
+.cell{
     
 }
-.money{
-    background-color: #fefefe;
-}
-.isizulu{
-    background-color: #fefefe;
-    padding-right: 4px;
-}
-.imali{
-    background-color: #dce6f1;  
-    padding-right: 10px;
+
+span{
+    word-wrap: normal;
+
 }
