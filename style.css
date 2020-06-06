@@ -1,0 +1,18 @@
+span{
+    border: 1px solid black;
+}
+.english{
+    background-color: #dce6f1;
+    
+}
+.money{
+    background-color: #fefefe;
+}
+.isizulu{
+    background-color: #fefefe;
+    padding-right: 4px;
+}
+.imali{
+    background-color: #dce6f1;  
+    padding-right: 10px;
+}
